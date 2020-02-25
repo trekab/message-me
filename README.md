@@ -1,6 +1,6 @@
 # MessageMe Chat App
 
-> This a real time chat application where users can sign up to have accounts and start chatting with all signed up members in real time.
+> This is a real time chat application where users can sign up to have accounts and start chatting with all signed up members in real time.
 
 ## Built With
 
