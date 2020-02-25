@@ -4,26 +4,26 @@
   Sign Up
 </h4>
 
-<form class="ui form">
+<%= form_for(@user, html: {class: "ui form", role: "form"},  url: signup_path) do |f| %>
   <div class="field">
-    <label>First Name</label>
-    <input type="text" name="first-name" placeholder="First Name">
+    <%= f.label :first_name, "First Name" %>
+    <%= f.text_field :first_name, placeholder: "First Name" %>
   </div>
   <div class="field">
-    <label>Last Name</label>
-    <input type="text" name="last-name" placeholder="Last Name">
+    <%= f.label :last_name, "Last Name" %>
+    <%= f.text_field :first_name, placeholder: "Last Name" %>
   </div>
   <div class="field">
-    <label>Email</label>
-    <input type="email" name="email" placeholder="johndoe@ymail.com">
+    <%= f.label :email, "Email" %>
+    <%= f.email_field :email, placeholder: "johndoe@ymail.com" %>
   </div>
   <div class="field">
-    <label>Password</label>
-    <input type="password" name="password">
+    <%= f.label :password, "Password" %>
+    <%= f.password_field :password %>
   </div>
   <div class="field">
-    <label>Password Confirmation</label>
-    <input type="password" name="password_confirmation">
+    <%= f.label :password_confirmation, "Password Confirmation" %>
+    <%= f.password_field :password %>
   </div>
-  <button class="ui button orange" type="submit">Submit</button>
-</form>
+  <%= f.button "Submit", class: "ui button orange" %>
+<% end %>
