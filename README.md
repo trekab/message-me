@@ -2,6 +2,8 @@
 
 > This is a real time chat application where users can sign up to have accounts and start chatting with all signed up members in real time.
 
+![screenshot](./message-me3.png)
+
 ## Built With
 
 - Ruby, HTML5, CSS3, JavaScript,
