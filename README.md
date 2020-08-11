@@ -28,6 +28,10 @@ Thus run the migrations
 
 Now, you can open the app in your text editor to check out the source code and run 'rails s' to test the app locally.
 
+## Future features
+- Display of users that are active/logged in.
+- Add private chatting with a single user.
+
 ## Authors
 
 👤 **Treasure Kabareebe**
