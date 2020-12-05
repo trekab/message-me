@@ -20,11 +20,11 @@ To get a local copy up and running follow these simple example steps.
 - git clone git@github.com:trekab/message-me.git
 
 Then you browse to the folder and exucute the following commands
-- cd message-me
-- bundle install
+- `cd message-me`
+- `bundle install`
 
 Thus run the migrations
-- rails db:migrate
+- `rails db:migrate`
 
 Now, you can open the app in your text editor to check out the source code and run 'rails s' to test the app locally.
 
